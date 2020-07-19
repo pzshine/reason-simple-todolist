@@ -6,7 +6,7 @@ type state = {
 
 type action =
   | Add(string)
-  | Remove(int)
+  | Remove(int);
 
 let initialState = {id: 1, todos: []};
 
